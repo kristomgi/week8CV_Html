@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -27,7 +27,11 @@
   <main>
     <section class="section intro">
       <div class="hero-card">
-        <img src="images/cv_portree.jpg" alt="portreepilt">
+        <div class="carousel">
+          <img id="carousel-image" src="images/cv_portree.jpg" alt="portreepilt">
+          <button id="prev-btn">&lt;</button>
+          <button id="next-btn">&gt;</button>
+        </div>
         <div class="hero-text">
           <h2>LÜHITUTVUSTUS</h2>
           <p>Olen motiveeritud ja õpihimuline Roboti eriala tudeng.</p>
@@ -79,11 +83,11 @@
       <h2>TÖÖKOGEMUS</h2>
       <div class="info-row">
         <div class="info-mini">algus - lõpp</div>
-        <div class="info-main">Firma/Asutus - Ametikoh</div>
+        <div class="info-main">Firma/Asutus - Ametikoht</div>
       </div>
       <div class="info-row">
         <div class="info-mini">algus - lõpp</div>
-        <div class="info-main">Firma/Asutus - Ametikoh</div>
+        <div class="info-main">Firma/Asutus - Ametikoht</div>
       </div>
     </section>
 
@@ -111,5 +115,6 @@
   </main>
   <footer></footer>
 
+  <script src="app.js"></script>
 </body>
 </html>
